@@ -25,7 +25,7 @@ type = onedrive
 client_id =
 client_secret =
 token = <paste result from rclone authorize>
-resource_url = https://travelaudiencegmbh-my.sharepoint.com/
+resource_url = <https://mydomain.sharepoint.com/>
 ```
 You can obtain an access token for the config by using `rclone authorize` on a machine with a web browser. For more info: https://rclone.org/remote_setup/
 
